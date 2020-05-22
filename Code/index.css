@@ -11,6 +11,11 @@ html {
 * {
     font-family: 'agency';
     src: url('../fonts/agency.ttf');
+    scroll-behavior: smooth;
+}
+
+p {
+    size: 30px;
 }
 
 a {
@@ -46,6 +51,10 @@ a {
     margin-right: 4.5%;
     float: right;
     font-size: 22px;
+}
+
+.topnav-right #spanish {
+    color: red;
 }
 
 .topnav-right a {
@@ -117,13 +126,25 @@ a {
     padding-left: 0.5px;
 }
 
-/*business services*/
+/*services services*/
+.servicesTitle {
+    text-align: center;
+    background-color: #0F65C9;
+    color: white;
+}
+
+.insuranceTitle {
+    text-align: center;
+    background-color: #0F65C9;
+    color: white;
+}
+
 .col {
     text-align: center;
 }
 
 .firstRow {
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 40px;
 }
 
@@ -143,6 +164,7 @@ a {
 
 .thirdRow {
     padding-bottom: 40px;
+    padding-top: 30px;
 }
 
 .thirdRow h4 {
@@ -183,6 +205,30 @@ a {
     color: #0F65C9;
 }
 
+.contactInfo {
+    font-size: 25px;
+}
+
+.weekday {
+    font-weight: bolder;
+    color: #0F65C9;
+}
+
+.hoursOperation {
+    font-weight: bolder;
+    color: #0F65C9;
+}
+
+.dayoftheweek {
+    text-align: right;
+    font-size: 23px;
+}
+
+.hours {
+    text-align: left;
+    font-size: 23px;
+}
+
 /* bottom settings */
 .bottom-section-content{
     margin-top: 20px;
@@ -207,26 +253,31 @@ a {
     padding-top: 120px;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 40px;
+    padding-bottom: 120px;
     font-size: 20px;
 }
 
-.insuranceCompanies h1, h2 {
-    color: #0F65C9;
-
+.insuranceCompanies h1 {
+    padding-left: 1%;
+    background-color: #0F65C9;
+    color: white;
 }
 
-.row2 {
-    padding-top: 60px;
-    padding-left: 25%;
-    padding-right: 25%;
+.insuranceCompanies h2 {
+    color: #0F65C9;
+    text-align: left;
+
 }
 
 /*--------------------------------*/
 
 /*About Us CSS*/
 #aboutUsContent .name {
-    color: #0F65C9;
+    color: white;
+    background-color: #0F65C9;
+    padding-left: 1%;
+    margin-left: -2%;
+    margin-right: -2%;
 }
 
 #agentSection {
@@ -254,6 +305,7 @@ a {
 
 .agent1 {
     text-align: left;
+    padding-left: 1%;
 }
 
 .agent1-description {
@@ -262,6 +314,7 @@ a {
 
 .agent2 {
     text-align: right;
+    padding-right: 2%;
 }
 
 .agent2-description {
