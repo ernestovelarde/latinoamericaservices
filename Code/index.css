@@ -14,10 +14,6 @@ html {
     scroll-behavior: smooth;
 }
 
-p {
-    size: 30px;
-}
-
 a {
     color: dimgray;
 }
@@ -45,12 +41,13 @@ a {
 
 .subBrand {
     color: #0F65C9;
+    font-size: 25px;
 }
 
 .topnav-right {
     margin-right: 4.5%;
     float: right;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .topnav-right #spanish {
@@ -63,8 +60,8 @@ a {
 
 /* message bar setting */
 .accordion {
-    margin-top: 70px;
-    height: 70px;
+    margin-top: 80px;
+    height: 45px;
     background-color: #0F65C9;
     width: 100%;
     cursor: pointer;
@@ -179,6 +176,11 @@ a {
 .fourthRow h4 {
     font-weight: bolder;
     color: #0F65C9;
+}
+
+.otherServices {
+    text-align: center;
+    color: red;
 }
 
 /* location setting*/
