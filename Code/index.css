@@ -196,6 +196,16 @@ a {
     font-size: 18px;
 }
 
+/* review setting*/
+.review{
+    color: white;
+    background-color:cornflowerblue;
+    height: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 /* contact-us setting*/
 .contact-us {
     font-size: 20px;
